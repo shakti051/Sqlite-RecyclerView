@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:background="@drawable/et_border"
+    android:padding="5dp" android:layout_margin="5dp"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nameTV"
+        android:text="Name"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:paddingLeft="7dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/emailTV"
+        android:text="Email"
+        android:layout_below="@+id/nameTV"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:paddingLeft="7dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/phoneTV"
+        android:text="12312233"
+        android:layout_below="@id/emailTV"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:paddingLeft="7dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:id="@+id/idTV"
+        android:text="1"
+        android:padding="10dp"
+        android:layout_alignParentEnd="true"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:paddingLeft="7dp"
+        android:background="@android:color/holo_orange_dark"
+        android:textColor="@android:color/white"
+        />
+
+</RelativeLayout>
